@@ -1,0 +1,14 @@
+<nav>
+    <h1>SMM HAMID Blog</h1>
+    <ul>
+        <li><a href="/">Ana Sehife</a></li>
+        <li><a href="/about">Haqqinda</a></li>
+        <% if(user){ %>
+
+            <li><a href="/logout">Logout</a></li>
+
+        <%  } else{ %>
+            <li><a href="/login">Login</a></li>
+        <% } %>
+    </ul>
+</nav>
