@@ -22,6 +22,7 @@ const login_post = async (req,res) => {
     }
     catch(e){
         console.log(e)
+        res.redirect('/login')
     }
 }
 const signup_get = (req,res) => {
