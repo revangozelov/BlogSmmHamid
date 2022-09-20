@@ -19,7 +19,7 @@ mongoose.connect(dbUrl)
 
 app.set('view engine','ejs')
 
-app.listen(3000)
+app.listen(5000)
 
 app.use(express.static('public'))
 app.use(express.urlencoded({extended:true}))
